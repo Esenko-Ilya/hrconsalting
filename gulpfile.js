@@ -94,6 +94,7 @@ gulp.task("style", function () {
 			//указываем, где брать исходники
 			// "node_modules/normalize.css/normalize.css",
 			"node_modules/slick-carousel/slick/slick.css",
+			"node_modules/animate.css/animate.css",
 		])
 		.pipe(sourcemaps.init())
 		.pipe(concat("libs.min.css")) //склеиваем их в один файл с указанным именем
@@ -110,6 +111,7 @@ gulp.task("script", function () {
 			//тут подключаем разные js в общую библиотеку. Отключите то, что вам не нужно.
 			"node_modules/jquery/dist/jquery.js",
 			"node_modules/slick-carousel/slick/slick.min.js",
+			"node_modules/wow.js/dist/wow.js",
 			"src/js/forms.js",
 			"src/js/jquery.autosize.input.min.js",
 			"src/js/jquery.inputmask.bundle.min.js",
