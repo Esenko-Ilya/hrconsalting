@@ -1,0 +1,8 @@
+{
+	"cc3": {
+		"prefix": "cc3",
+		"body": ["$1maincolor"],
+		"description": "colormain"
+	},
+
+}
